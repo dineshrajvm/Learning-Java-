@@ -11,3 +11,22 @@ for(i=1;i<=10;i++){
 System.out.printf("%d",i).println();
 }
 
+------------------------------------------------------------------------------------------------------------------------------------
+jshell> int a=1
+a ==> 1
+jshell> int b=2
+b ==> 2
+jshell> int c=3
+c ==> 3
+
+jshell> System.out.printf("%d + %d + %d = %d",a,b,c,a+b+c).println()
+1 + 2 + 3 = 6
+
+jshell> int a=2
+a ==> 2
+jshell> System.out.printf("%d + %d + %d = %d",a,b,c,a+b+c).println()
+2 + 2 + 3 = 7
+jshell> int b=12
+b ==> 12
+jshell> System.out.printf("%d + %d + %d = %d",a,b,c,a+b+c).println()
+2 + 12 + 3 = 17
