@@ -59,3 +59,14 @@ Type printLearningExperience() ---- to print all the mentioned words
 void sayHelloWorld(int numOfTimes) {
 	System.out.println(numOfTimes);
 }
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+To print 5 and 6 table
+
+for (int i = 1; i <= 10; i++) {
+    System.out.println("5 x " + i + " = " + (5 * i));
+    System.out.println("6 x " + i + " = " + (6 * i));
+}
+
+------------------------------------------------------------------------------------------------------------------------------------
