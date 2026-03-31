@@ -4,6 +4,7 @@ for(i=10;i>=1;i--){
    System.out.printf("%d",i).println();
 }
 
+------------------------------------------------------------------------------------------------------------------------------------
 
 To print 1 to 10 
 
@@ -23,6 +24,8 @@ c ==> 3
 jshell> System.out.printf("%d + %d + %d = %d",a,b,c,a+b+c).println()
 1 + 2 + 3 = 6
 
+------------------------------------------------------------------------------------------------------------------------------------
+
 jshell> int a=2
 a ==> 2
 jshell> System.out.printf("%d + %d + %d = %d",a,b,c,a+b+c).println()
@@ -31,3 +34,28 @@ jshell> int b=12
 b ==> 12
 jshell> System.out.printf("%d + %d + %d = %d",a,b,c,a+b+c).println()
 2 + 12 + 3 = 17
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+7 tables 
+int table = 7;
+for(i=1; i<=10; i++){
+system.out.printf("%d * %d = %d", table ,i,table*i).println();
+}
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+void printLearningExperience(){
+System.out.println("I've created my first variable");
+System.out.println("I've created my first method");
+System.out.println("I've created my first loop");
+System.out.println("I'm excited to learn Java");
+}
+
+Type printLearningExperience() ---- to print all the mentioned words
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+void sayHelloWorld(int numOfTimes) {
+	System.out.println(numOfTimes);
+}
