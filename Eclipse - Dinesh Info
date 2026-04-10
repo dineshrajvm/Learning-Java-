@@ -1,0 +1,21 @@
+package javaProject;
+
+public class Details {
+
+    public static void main(String[] args) {
+
+        byte age = 23;
+        short birthYear = 2002;
+        int luckyNumber = 7777;
+        long phoneNumber = 9876543210L;
+
+        System.out.println("Name: Dinesh Raj Vm");
+        System.out.println("Age (byte): " + age);
+        System.out.println("Birth Year (short): " + birthYear);
+        System.out.println("Lucky Number (int): " + luckyNumber);
+        System.out.println("Phone Number (long): " + phoneNumber);
+    }
+}
+
+
+Using INT<LONG<SHORT<BYTE
