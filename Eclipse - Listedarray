@@ -1,0 +1,44 @@
+package javaProject;
+
+import java.util.ArrayList;
+
+class Student {
+    String school;
+    String className;
+    String section;
+    String name;
+    int grade;
+
+    Student(String school, String className, String section, String name, int grade) {
+        this.school = school;
+        this.className = className;
+        this.section = section;
+        this.name = name;
+        this.grade = grade;
+    }
+
+    void display() {
+        System.out.println("School: " + school +
+                ", Class: " + className +
+                ", Section: " + section +
+                ", Name: " + name +
+                ", Grade: " + grade);
+    }
+}
+
+public class Listed {
+    public static void main(String[] args) {
+
+        ArrayList<Student> students = new ArrayList<>();
+
+        students.add(new Student("ABC School", "12", "A", "Rahul", 85));
+        students.add(new Student("ABC School", "11", "A", "Priya", 90));
+        students.add(new Student("ABC School", "10", "B", "Arun", 78));
+        students.add(new Student("ABC School", "9", "A", "Sneha", 88));
+
+        System.out.println("Student List:");
+        for (Student s : students) {
+            s.display();
+        }
+    }
+}
